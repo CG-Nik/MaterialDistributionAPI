@@ -7,6 +7,7 @@ using CustomDistributionAPI;
 
 [assembly: MelonInfo(typeof(MaterialDistributionAPI.Core), "MaterialDistributionAPI", "1.0.0", "CGNik", null)]
 [assembly: MelonGame("Alta", "A Township Tale")]
+[assembly: MelonPriority(-100)]
 
 namespace MaterialDistributionAPI
 {
